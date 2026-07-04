@@ -32,7 +32,7 @@ retriever = docsearch.as_retriever(search_type="similarity", search_kwargs={"k":
 
 
 llm = ChatOpenAI(
-    api_key=os.environ["OPENAI_API_KEY"],
+    api_key=os.environ.get("OPENAI_API_KEY", "missing_key"),
     base_url=os.environ["OPENAI_API_BASE"],
     model="openrouter/free",
     temperature=0.4, 
