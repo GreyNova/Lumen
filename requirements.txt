@@ -1,14 +1,14 @@
 sentence-transformers==2.2.2
-langchain
+langchain==0.2.17
 flask
 pypdf
 python-dotenv
 chromadb
-langchain-chroma
-langchain_community
-langchain_openai
-langchain_experimental
+langchain-chroma==0.1.4
+langchain_community==0.2.19
+langchain_openai==0.1.25
+langchain_experimental==0.0.65
 gunicorn
-langchain-text-splitters
-langchain-huggingface
+langchain-text-splitters==0.2.4
+langchain-huggingface==0.0.3
 -e .
