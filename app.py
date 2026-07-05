@@ -22,7 +22,7 @@ app = Flask(__name__)
 # OpenAI client at the OpenRouter endpoint, using the free Qwen model.
 OPENROUTER_API_KEY = os.environ.get("OPENAI_API_KEY", "")
 OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
-MODEL_NAME = os.environ.get("MODEL_NAME", "qwen/qwen3-next-80b-a3b-instruct:free")
+MODEL_NAME = os.environ.get("MODEL_NAME", "openrouter/free")
 
 # ---- Embeddings + vector store ------------------------------------------------
 embeddings = download_hugging_face_embeddings()
