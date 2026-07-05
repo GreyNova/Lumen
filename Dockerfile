@@ -26,4 +26,4 @@ USER user
 EXPOSE 7860
 
 # Start the Flask app using Gunicorn on port 7860
-CMD ["gunicorn", "-b", "0.0.0.0:7860", "app:app"]
+CMD ["gunicorn", "-b", "0.0.0.0:7860", "--timeout", "120", "app:app"]
