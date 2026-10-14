@@ -1,12 +1,3 @@
----
-title: Lumen
-emoji: ⚕️
-colorFrom: blue
-colorTo: green
-sdk: docker
-pinned: false
----
-
 # End-to-end-Medical-Chatbot-Generative-AI
 
 
